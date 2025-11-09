@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    background: #dff8ff url("assets/ui/forest_bg.png");
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #6a42d8;
+    font-weight: bold;
+}
+
+.fluffy {
+    width: 220px;
+    margin: 20px auto;
+    display: block;
+}
+
+.start-btn {
+    padding: 18px 40px;
+    font-size: 24px;
+    border: none;
+    background: #ffdd88;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.start-btn:hover {
+    background: #ffcc55;
+}
+
+.quote {
+    font-size: 1.4rem;
+    color: #444;
+}
